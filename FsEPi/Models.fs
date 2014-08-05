@@ -9,5 +9,5 @@ type StartPage() =
     inherit PageData()
 
     abstract Heading : string with get, set
-    [<Display(Name = "Some heading")>] // TODO: place attributes on implementation
+    [<Display(Name = "Some heading")>] // placing attributes on implementation
     default val Heading = "" with get, set
