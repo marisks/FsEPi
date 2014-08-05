@@ -24,7 +24,7 @@ type HttpRoute = {
     id : RouteParameter }
 
 type Global() =
-    inherit System.Web.HttpApplication() 
+    inherit EPiServer.Global() 
 
     static member RegisterWebApi(config: HttpConfiguration) =
         // Configure routing
