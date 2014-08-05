@@ -108,6 +108,7 @@
   </Target>
   <ItemGroup>
     <Compile Include="Models.fs" />
+    <Compile Include="Controllers.fs" />
     <Compile Include="AssemblyInfo.fs" />
     <Content Include="Web.config" />
     <Content Include="Global.asax" />
@@ -120,6 +121,10 @@
     <None Include="modules\_protected\Shell\EPiServer.Shell.UI.zip" />
     <None Include="modules\_protected\CMS\web.config" />
     <None Include="modules\_protected\CMS\EPiServer.Cms.Shell.UI.zip" />
+    <None Include="Views\StartPage\Index.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\_viewstart.cshtml" />
+    <None Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Antlr3.Runtime">
